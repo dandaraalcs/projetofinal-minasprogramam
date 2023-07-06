@@ -1,0 +1,169 @@
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Roboto', sans-serif; ;
+} 
+
+li {
+  list-style: none;
+}
+
+.header-menu{
+   width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  display: flex;
+  position: fixed;
+  width: 100%;
+  padding: 8px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  height:  60px;
+  background-color: #2c2a50;
+} 
+
+.header-menu nav{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.lista-menu {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+  align-items: center;
+}
+
+.lista-menu li>a {
+  font-size: 18px;
+  color: #fff;
+  text-decoration: inherit;
+} 
+
+.principal{
+  height: 100vh;
+  display: flex;
+  background-color: #ffffff;
+}
+
+.container{
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 960px;
+  padding-right: 10px;
+  padding-left: 10px;
+  width: 100%;
+}
+
+.subcontainer-principal{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.nome-completo{
+  font-size: 40px;
+  color: #2c2b52;
+  font-weight: 700;
+  height: 45px;
+}
+
+.profissao{
+  color: #190138;
+  height: 60px;
+} 
+
+.texto-sobre{
+  font-size: 20px;
+  line-height: 32px;
+} 
+
+.article-lista{
+  display: flex;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  flex-direction: column;
+}
+
+.topico-principal{
+  color: #2b2133;
+  font-size: 30px;
+} 
+
+.lista-item{
+  padding: 32px;
+} 
+
+.lista-titulo{
+  margin-bottom: 5px;
+  font-size: 22px;
+  color: #a082b2;
+  font-weight: 700;
+}
+
+.lista-local{
+  font-size: 18px;
+  color: #2b2133;
+}
+ .lista-descricao {
+  font-size: 18px;
+  margin-top: 5px;
+  line-height: 20px;
+  color: #020000;
+  font-weight: 300;
+} 
+
+.section-portfolio{
+  font-size: 36px;
+
+}
+
+.section-titulo-tamanho{
+  font-size: 50px;
+}
+
+.section-titulo-portfolio{
+  color: #2b2133;
+}
+
+
+
+.titulo-lista-portfolio{
+  color: #ed2fdd;
+}
+
+.footer {
+  background-color: #2c2a50;
+  display: flex;
+  align-items: center;
+  height: 30vh;
+}
+
+.lista-footer{
+  color: #FFF;
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 16px;
+  display: table;
+  align-items: center;
+}
+
+.links-footer{
+    color: #FFF;
+    text-decoration: none;
+    margin-left: 30px
+}
+
+
+
+
+/* {
+} */
