@@ -69,8 +69,11 @@ li {
   text-align: center;
 }
 
+img    {
+  border-radius: 30%;
+}
 .nome-completo{
-  font-size: 40px;
+  font-size: 35px;
   color: #2c2b52;
   font-weight: 700;
   height: 45px;
